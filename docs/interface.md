@@ -1,38 +1,47 @@
 
 # Projeto de Interface
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+O **CHRONOS** é uma plataforma web de agenda inteligente que organiza atividades, compromissos e metas pessoais.  
+Seu objetivo é fornecer uma solução prática e intuitiva para melhorar a produtividade, reduzir esquecimentos e apoiar o planejamento da rotina de seus usuários.
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/userflow.jpg.png)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+## Principais Interfaces da Plataforma
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
+### 1. Dashboard (Tela Inicial)
+- Resumo diário/semanal com compromissos próximos.
+- Metas em andamento e gráfico rápido de produtividade.
+- Atalhos para criar novas atividades e metas.
+- Menu lateral para navegação global (Início, Buscar, Calendário, Rotina, Metas, Lembretes, Conquistas e Projetos).
+
+### 2. Tela de Calendário
+- Visualização em **Lista, Semana, Mês ou Kanban**.
+- Permite arrastar e soltar compromissos para reorganização.
+- Filtros por cores/categorias para facilitar a identificação.
+
+### 3. Tela de Metas
+- Criação de metas com possibilidade de subdivisão em subtarefas.
+- Acompanhamento visual de progresso (percentual).
+- Destaque para metas próximas do prazo.
+
+### 4. Tela de Lembretes & Notificações
+- Notificações antes dos compromissos.
+- Alertas automáticos sobre metas a vencer.
+
+### 5. Tela de Análise
+- Gráficos de produtividade (tarefas concluídas x planejadas).
+- Distribuição de tempo por categorias (ex.: estudo, trabalho, lazer).
+- Linha do tempo de evolução de metas.
+- Resumos semanais e mensais.
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
+Os wireframes foram desenvolvidos a partir dos requisitos funcionais e das histórias de usuário previamente levantados, assegurando clareza na navegação e alinhamento com os objetivos do sistema.  
 
-### Exemplo
+Para melhor visualização e interação, os protótipos estão disponíveis no **Figma**, por meio do link a seguir:  
 
-A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+🔗 [Acessar Wireframes no Figma](https://www.figma.com/design/xJNxgkDoBsvZR3w9nxGZEf/Trabalho?node-id=0-1&t=k497y7ou3rOmCltb-1)  
